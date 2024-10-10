@@ -6,7 +6,7 @@ public class DbConnect {
     private static final String DB_NAME = "expenseIncome";
     private static final String JDBC_URL = "jdbc:mysql://127.0.0.1:3306/"+DB_NAME;
     private static final String USER = "root";
-    private static final String Password = "sfar";
+    private static final String Password = "";
 
 
     public static Connection getConnection (){
